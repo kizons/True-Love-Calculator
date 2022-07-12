@@ -9,6 +9,6 @@ love = str(add_names.count("l") + add_names.count("o") + add_names.count("v") + 
 love_score = int(true + love)
 
 if love_score > 50:
-    print(f"Your Love Score is: {love_score}! You are compatible")
+    print(f"Your Love Score is: {love_score}%\nYou are compatible")
 else:
-    print(f"Your Love Score is: {love_score}!\nOMG! You are not compatible")
+    print(f"Your Love Score is: {love_score}%\nOMG! You are not compatible")
